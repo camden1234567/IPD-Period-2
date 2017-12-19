@@ -5,8 +5,8 @@
 #     strategy_description: a string
 #     move: A function that returns 'c' or 'b'
 ####
-
-team_name = 'team_name' # Only 10 chars displayed.
+#Camden and Braeden
+team_name = 'Liberalonly' # Only 10 chars displayed.
 strategy_name = 'Strategy Identification'
 strategy_description = 'It tries to define the opponents strategy and react accordingly.'
     
@@ -57,7 +57,7 @@ if __name__ == '__main__':
               my_score=0,
               their_score=0,
               result='b'):
-         print 'Test passed'
+         print ('Test passed')
      # Test 2: Continue betraying if they collude despite being betrayed.
     test_move(my_history='bbb',
               their_history='ccc', 
